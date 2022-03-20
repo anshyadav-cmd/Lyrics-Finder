@@ -17,11 +17,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:layout_weight="1"
             android:ems="10"
             android:gravity="center"
             android:hint="Artist Name"
             android:inputType="textPersonName"
+            android:minHeight="48dp"
             android:padding="10dp" />
 
         <EditText
@@ -29,11 +29,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:layout_weight="1"
             android:ems="10"
             android:gravity="center"
             android:hint="Song Name"
             android:inputType="textPersonName"
+            android:minHeight="48dp"
             android:padding="10dp" />
 
         <Button
@@ -41,34 +41,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:layout_weight="1"
             android:padding="10dp"
             android:text="FInd Lyrics" />
-    </LinearLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1">
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <LinearLayout
+            <TextView
+                android:id="@+id/lyricsTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" />
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="TextView" />
         </ScrollView>
 
-        <TextView
-            android:id="@+id/lyricsTextView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="5dp"
-            android:gravity="center_horizontal"
-            android:padding="10dp"
-            android:text="TextView" />
-    </FrameLayout>
+    </LinearLayout>
 
 </LinearLayout>
