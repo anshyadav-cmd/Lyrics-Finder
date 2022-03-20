@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Please Fill All Constraints", Toast.LENGTH_SHORT).show();
                 }
                 String url = "https://api.lyrics.ovh/v1/" +  edtArtistName.getText().toString() + "/" + edtSongName.getText().toString();
+                url.replace(" ", "20%");
                 JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
