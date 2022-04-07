@@ -9,4 +9,5 @@ Android Application to find lyrics of the song by Artist and there Song from onl
 
 - GIF
 
-![untitled](https://user-images.githubusercontent.com/57345756/162193313-04cbd7f8-4590-4de8-aa70-848b16278328.gif)
+<img src="https://user-images.githubusercontent.com/57345756/162193313-04cbd7f8-4590-4de8-aa70-848b16278328.gif"  width="30%"/>
+
